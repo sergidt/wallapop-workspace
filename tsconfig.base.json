@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@wallapop/product-browser": ["libs/product-browser/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
