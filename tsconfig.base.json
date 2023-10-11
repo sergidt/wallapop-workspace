@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@wallapop/not-found-page": ["libs/not-found-page/src/index.ts"],
       "@wallapop/product-browser": ["libs/product-browser/src/index.ts"]
     }
   },

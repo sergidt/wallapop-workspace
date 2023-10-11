@@ -14,11 +14,11 @@
                         "depConstraints": [
                             {
                                 "sourceTag": "type:app",
-                                "onlyDependOnLibsWithTags": ["type:domain"]
+                                "onlyDependOnLibsWithTags": ["type:domain", "type:error"]
                             },
                             {
                                 "sourceTag": "type:domain",
-                                "onlyDependOnLibsWithTags": ["type:ui","type:util"]
+                                "onlyDependOnLibsWithTags": ["type:ui", "type:util"]
                             },
                             {
                                 "sourceTag": "type:ui",
