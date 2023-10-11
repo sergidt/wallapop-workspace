@@ -1,10 +1,12 @@
 import { Route } from '@angular/router';
 import { NotFoundPageComponent } from '@wallapop/not-found-page';
+import { userLoggedGuard } from '@wallapop/security';
 
 export const appRoutes: Route[] = [
     {
         path: 'product-browser',
-        loadComponent: () => import('@wallapop/product-browser').then(lib => lib.ProductBrowserComponent)
+        loadChildren: () => import('@wallapop/product-browser').then(lib => lib.ROUTES),
+        canActivate: [userLoggedGuard]
     },
     {
         path: '',

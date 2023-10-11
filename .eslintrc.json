@@ -14,7 +14,7 @@
                         "depConstraints": [
                             {
                                 "sourceTag": "type:app",
-                                "onlyDependOnLibsWithTags": ["type:domain", "type:error"]
+                                "onlyDependOnLibsWithTags": ["type:domain", "type:error", "type:core"]
                             },
                             {
                                 "sourceTag": "type:domain",
