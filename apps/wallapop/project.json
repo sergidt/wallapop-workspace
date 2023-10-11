@@ -16,7 +16,10 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/wallapop/tsconfig.app.json",
         "assets": ["apps/wallapop/src/favicon.ico", "apps/wallapop/src/assets"],
-        "styles": ["apps/wallapop/src/styles.less"],
+        "styles": [
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+          "apps/wallapop/src/styles.less"
+        ],
         "scripts": []
       },
       "configurations": {
